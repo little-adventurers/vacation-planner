@@ -39,3 +39,7 @@ Thumbs.db
 # Virtual Environment #
 ######################
 venv/
+
+# SQL Lite #
+######################
+db.sqlite3
