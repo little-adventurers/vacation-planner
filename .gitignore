@@ -43,3 +43,7 @@ venv/
 # SQL Lite #
 ######################
 db.sqlite3
+
+# Python Cache #
+######################
+*.pyc
