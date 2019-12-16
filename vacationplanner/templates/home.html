@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation Planner</title>
+  </head>
+  <body>
+    <h1>Vacations</h1>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Vacation</th>
+          <th>Location</th>
+          <th>Create Date</th>
+          <th>Created By</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for vacation in vacations %}
+          <tr>
+            <td>
+              {{ vacation.name }}<br>
+            </td>
+            <td>{{ vacation.location }}<br></td>
+            <td>{{ vacation.created_at }}<br></td>
+            <td>{{ vacation.created_by }}<br></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
