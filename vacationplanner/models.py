@@ -10,9 +10,8 @@ class Vacation(models.Model):
     end_date = models.DateTimeField()
     location = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(null=True)
+    updated_at = models.DateTimeField(null=True, auto_now_add=True)
     created_by = models.ForeignKey(User, related_name='+',on_delete=models.DO_NOTHING)
-    updated_by = models.ForeignKey(User, related_name='+',on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return self.name
