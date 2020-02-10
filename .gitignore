@@ -52,3 +52,16 @@ console/model/__pycache__/*
 # workspace config #
 ######################
 *.code-workspace
+vacationplanner/__pycache__/views.cpython-38.pyc
+vacationplanner/__pycache__/__init__.cpython-38.pyc
+vacationplanner/__pycache__/admin.cpython-38.pyc
+vacationplanner/__pycache__/models.cpython-38.pyc
+vacationplanner/__pycache__/tests.cpython-38.pyc
+vacationplanner/__pycache__/urls.cpython-38.pyc
+vacationplanner/migrations/__pycache__/__init__.cpython-38.pyc
+vacationplanner/migrations/__pycache__/0001_initial.cpython-38.pyc
+vacationplanner/migrations/__pycache__/0002_auto_20191215_0050.cpython-38.pyc
+vacationplanner/migrations/__pycache__/0003_auto_20191215_0139.cpython-38.pyc
+vacationplanner/migrations/__pycache__/0004_auto_20191216_0245.cpython-38.pyc
+vacationplanner/migrations/__pycache__/0005_auto_20191216_0308.cpython-38.pyc
+vacationplanner/migrations/__pycache__/0006_auto_20191222_0600.cpython-38.pyc
