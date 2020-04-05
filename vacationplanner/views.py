@@ -7,6 +7,5 @@ def home(request):
     return render(request, 'home.html', {'vacations': vacations})
 
 def vacation_itineraries(request, pk):
-    foo = 1/0
     vacation = Vacation.objects.get(pk=pk)
     return render(request,'itinerary.html',{'vacation':vacation})
