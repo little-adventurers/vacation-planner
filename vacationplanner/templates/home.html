@@ -24,7 +24,8 @@
           {% for vacation in vacations %}
             <tr>
               <td>
-                {{ vacation.name }}<br>
+                <!-- <a href="{% url 'vacation_itineraries' vacation.pk %}">{{ vacation.name }}</a> -->
+                <a href=/vacation_itineraries/{{vacation.pk}}>{{ vacation.name }}</a>
               </td>
               <td>{{ vacation.location }}<br></td>
               <td class="align-middle">{{ vacation.created_at }}<br></td>
