@@ -19,7 +19,14 @@ class Vacation(models.Model):
 class Itinerary(models.Model):
     id = models.UUIDField(primary_key=True,default=uuid.uuid4, editable=False)
     description = models.CharField(max_length=100)
-    vacation = models.ForeignKey(Vacation,related_name='vacations',on_delete=models.DO_NOTHING)
+    vacation = models.ForeignKey(Vacation,related_name='itineraries',on_delete=models.CASCADE)
 
     def __str__(self):
         return self.description
+
+class Post(models.Model):
+    id = models.UUIDField(primary_key=True,default=uuid.uuid4, editable=False)
+    comment = models.CharField(max_length=200)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(null=True, auto_now_add=True)
+    created_by = models.ForeignKey(User, related_name='+',on_delete=models.DO_NOTHING)
