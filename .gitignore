@@ -65,3 +65,6 @@ vacationplanner/migrations/__pycache__/0003_auto_20191215_0139.cpython-38.pyc
 vacationplanner/migrations/__pycache__/0004_auto_20191216_0245.cpython-38.pyc
 vacationplanner/migrations/__pycache__/0005_auto_20191216_0308.cpython-38.pyc
 vacationplanner/migrations/__pycache__/0006_auto_20191222_0600.cpython-38.pyc
+
+# vscode env #
+.vscode/
