@@ -68,3 +68,6 @@ vacationplanner/migrations/__pycache__/0006_auto_20191222_0600.cpython-38.pyc
 
 # vscode env #
 .vscode/
+
+# pycache
+**/__pycache__/
